@@ -48,6 +48,8 @@ class ViewController: UIViewController {
         
     }
     
+    ///  Тут можно видимо что-то добавить для выноса переменной myFirstJoke за пределы класса
+    
     @IBAction func nextJokeButtonClicked(_ sender: Any) {
         DataLoader().load()
         let myJokes = DataLoader().myFirstJoke
